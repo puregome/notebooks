@@ -1,0 +1,33 @@
+region,country,nielsen
+Noord-Holland,Netherlands,Nielsen II
+Zuid-Holland,Netherlands,Nielsen II
+Utrecht,Netherlands,Nielsen II
+North Holland,Netherlands,Nielsen II
+South Holland,Netherlands,Nielsen II
+Zuid Holland,Netherlands,Nielsen II
+Texel,Netherlands,Nielsen II
+Goeree-Overflakkee,Netherlands,Nielsen II
+Groningen,Netherlands,Nielsen III
+Friesland,Netherlands,Nielsen III
+Drenthe,Netherlands,Nielsen III
+Fryslân,Netherlands,Nielsen III
+Gelderland,Netherlands,Nielsen IV
+Overijssel,Netherlands,Nielsen IV
+Flevoland,Netherlands,Nielsen IV
+Twente,Netherlands,Nielsen IV
+Achterhoek,Netherlands,Nielsen IV
+Noordoostpolder,Netherlands,Nielsen IV
+Noord-Brabant,Netherlands,Nielsen V
+Limburg,Netherlands,Nielsen V
+Zeeland,Netherlands,Nielsen V
+North Brabant,Netherlands,Nielsen V
+Oost-Vlaanderen,Belgium,Nielsen I
+West-Vlaanderen,Belgium,Nielsen I
+Antwerpen,Belgium,Nielsen II
+Vlaams-Brabant,Belgium,Nielsen II
+Limburg,Belgium,Nielsen II
+Brussel,Belgium,Nielsen III
+Henegouwen,Belgium,Nielsen IV
+Waals-Brabant,Belgium,Nielsen IV
+Namen,Belgium,Nielsen V
+Luik,Belgium,Nielsen V
