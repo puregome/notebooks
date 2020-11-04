@@ -32,14 +32,16 @@ Nu.nl:
 
 ## Publications, talks and media coverage
 
-Shihan Wang, Marijn Schraagen, Erik Tjong Kim Sang and Mehdi Dastani, [Public Sentiment on Governmental COVID-19 Measures in Dutch Social Media](https://openreview.net/forum?id=37zyB5yuPXi). In: Workshop on NLP for COVID-19 (Part 2) at EMNLP 2020
+Shihan Wang, Marijn Schraagen, Erik Tjong Kim Sang and Mehdi Dastani, [**Public Sentiment on Governmental COVID-19 Measures in Dutch Social Media**](https://openreview.net/forum?id=37zyB5yuPXi). In: Workshop on NLP for COVID-19 (Part 2) at EMNLP 2020
 (NLP-COVID19-EMNLP), 20 November 2020.
 
-Shihan Wang, Marijn Schraagen, Erik Tjong Kim Sang and Mehdi Dastani, [Dutch General Public Reaction on Governmental COVID-19 Measures and Announcements in Twitter Data](https://arxiv.org/abs/2006.07283). Preprint report on arXiv.org, 29 September 2020.
+Shihan Wang, Marijn Schraagen, Erik Tjong Kim Sang and Mehdi Dastani, [**Dutch General Public Reaction on Governmental COVID-19 Measures and Announcements in Twitter Data**](https://arxiv.org/abs/2006.07283). Preprint report on arXiv.org, 29 September 2020.
 
-Erik Tjong Kim Sang [PuReGoMe: Dutch Public Reaction on Governmental COVID-19 Measures and Announcements](https://ifarm.nl/erikt/talks/20200626-escience.pdf). Lunch talk, Netherlands eScience Center, Amsterdam, The Netherlands, 26 June 2020.
+Erik Tjong Kim Sang [**PuReGoMe: Dutch Public Reaction on Governmental COVID-19 Measures and Announcements**](https://ifarm.nl/erikt/talks/20200626-escience.pdf). Lunch talk, Netherlands eScience Center, Amsterdam, The Netherlands, 26 June 2020.
 
-Emerce, [Onderzoekers leiden publieke opinie coronamaatregelen af uit social media-data](https://www.emerce.nl/nieuws/onderzoekers-leiden-publieke-opinie-coronamaatregelen-af-uit-social-mediadata), Emerce, 12 May 2020 (in Dutch).
+Shihan Wang, **Public Sentiment during COVID-19 -Data Mining on Twitter data**. CLARIN Café, Utrecht, The Netherlands, 27 May 2020.
 
-Nienke Vergunst, [Researchers use social media data to analyse public sentiment about Coronavirus measures](https://www.uu.nl/en/news/researchers-use-social-media-data-to-analyse-public-sentiment-about-coronavirus-measures). University of Utrecht news message, 11 May 2020.
+Redactie Emerce, [**Onderzoekers leiden publieke opinie coronamaatregelen af uit social media-data**](https://www.emerce.nl/nieuws/onderzoekers-leiden-publieke-opinie-coronamaatregelen-af-uit-social-mediadata). Emerce, 12 May 2020 (in Dutch).
+
+Nienke Vergunst, [**Researchers use social media data to analyse public sentiment about Coronavirus measures**](https://www.uu.nl/en/news/researchers-use-social-media-data-to-analyse-public-sentiment-about-coronavirus-measures). University of Utrecht news message, 11 May 2020.
 
