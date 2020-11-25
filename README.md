@@ -59,13 +59,13 @@ Frequency analysis of the Nu.nl and Reddit data is included in the respective da
 
 ### Polarity analysis
 
-Polarity analysis is the same as sentiment analysis. This analysis is performed by the notebook [sentiment-pattern.ipynb] which uses the Python package PATTERN for sentiment analysis of Dutch text (De Smedt &amp; Daelemans, 2011). The analysis produces time series graphs for all tweets, all pandemic tweets and several individual pandemic topics.
+Polarity analysis is the same as sentiment analysis. This analysis is performed by the notebook [sentiment-pattern.ipynb](sentiment-pattern.ipynb) which uses the Python package PATTERN for sentiment analysis of Dutch text (De Smedt &amp; Daelemans, 2011). The analysis produces time series graphs for all tweets, all pandemic tweets and several individual pandemic topics.
 
 ![polarity for face masks, social distancing and lockdown over time](sentiment-all.png)
 
 ### Stance analysis
 
-Stance analysis is performed by the notebook [fasttext.ipynb].
+Stance analysis is performed by the notebook [fasttext.ipynb](fasttext.ipynb).
 
 ...
 
