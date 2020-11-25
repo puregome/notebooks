@@ -52,7 +52,7 @@ PuReGome performs analysis on three different levels: by counting messages, by d
 
 Frequency analysis of tweets is performed in the notebook [tweet-counts.ipynb](tweet-counts.ipynb). The notebook definies seven pandemic queries: corona, covid, RIVM, face masks, lockdown, social distancing and topic, where topic is a combination of terms relevant in the first months of the pandemic. The notebook produces a graph with the absolute daily frequencies of the tweets matching each of these pandemic queries:
 
-[tweet frequencies](tweet-frequencies.png)
+![tweet frequencies](tweet-frequencies.png)
 
 Frequency analysis of the Nu.nl and Reddit data is included in the respective data generation notebooks [nunl-convert-data.ipynb](nunl-convert-data.ipynb) and [reddit.ipynb](reddit.ipynb)
 
@@ -61,7 +61,7 @@ Frequency analysis of the Nu.nl and Reddit data is included in the respective da
 
 Polarity analysis is the same as sentiment analysis. This analysis is performed by the notebook [sentiment-pattern.ipynb] which uses the Python package PATTERN for sentiment analysis of Dutch text (De Smedt &amp; Daelemans, 2011). The analysis produces time series graphs for all tweets, all pandemic tweets and several individual pandemic topics.
 
-[polarity for face masks, social distancing and lockdown over time](sentiment-all.png)
+![polarity for face masks, social distancing and lockdown over time](sentiment-all.png)
 
 ### Stance analysis
 
