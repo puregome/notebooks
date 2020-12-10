@@ -3,7 +3,7 @@
 
 # PuReGoMe
 
-[PuReGoMe](https://www.esciencecenter.nl/projects/puregome/) is a research project of [Utrecht University](https://www.uu.nl/en/research/intelligent-software-systems/intelligent-systems) and the [Netherlands eScience Center](https://www.esciencecenter.nl/). We analyze Dutch social media messages to assess the opinion of the public towards the COVID-19 pandemic mesasures taken by the Dutch government.
+[PuReGoMe](https://research-software.nl/projects/4728) is a research project of [Utrecht University](https://www.uu.nl/en/research/intelligent-software-systems/intelligent-systems) and the [Netherlands eScience Center](https://www.esciencecenter.nl/). We analyze Dutch social media messages to assess the opinion of the public towards the COVID-19 pandemic mesasures taken by the Dutch government.
 
 
 ## Data
@@ -33,7 +33,7 @@ After a month has ended, the data from the month are collected. Here are the ste
 ### Nu.nl
 
 1. Run code blocks 1, 3 and 4 of the notebook [selenium-test.ipynb](selenium-test.ipynb), after updating the name of the file in URLFILE in code block 4
-2. Restart the notebook and run code blocks 1 and 6, after updating the name of the file in URLFILE in code block 6 to the same value as under code block 4. This takes many hours to complete
+2. Restart the notebook and run code blocks 1 and 6, after updating the name of the file in URLFILE in code block 6 to the same value as under code block 4, and changing the name of the new downloads directory. This takes many hours to complete
 3. The notebook can be copied and several copies can be run in parallel
 4. When the notebooks have finished: delete all files of sizes 1 and 3 in this month's directory and rerun the notebooks
 5. Repeat step 4 until no articles with comments are found
@@ -59,7 +59,7 @@ Frequency analysis of the Nu.nl and Reddit data is included in the respective da
 
 ### Polarity analysis
 
-Polarity analysis is the same as sentiment analysis. This analysis is performed by the notebook [sentiment-pattern.ipynb](sentiment-pattern.ipynb) which uses the Python package PATTERN for sentiment analysis of Dutch text (De Smedt &amp; Daelemans, 2011). The analysis produces time series graphs for all tweets, all pandemic tweets and several individual pandemic topics.
+Polarity analysis is the same as sentiment analysis. This analysis is performed by the notebook [sentiment-pattern.ipynb](sentiment-pattern.ipynb) which uses the Python package PATTERN for sentiment analysis of Dutch text (De Smedt &amp; Daelemans, 2011). The notebook requires two types of input files: the csv files in the text directories of each of the data sources and sentiment score files which should be generated from these csv files wth the script [../../scripts/sentiment-pattern-text.py](https://github.com/puregome/scripts/blob/master/sentiment-pattern-text.py) The polarity analysis of the different topics takes a lot of time and can be run in parallel. It produces time series graphs for all tweets, all pandemic tweets and several individual pandemic topics.
 
 ![polarity for face masks, social distancing and lockdown over time](sentiment-all.png)
 
