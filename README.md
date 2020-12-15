@@ -59,15 +59,15 @@ Frequency analysis of the Nu.nl and Reddit data is included in the respective da
 
 ### Polarity analysis
 
-Polarity analysis is the same as sentiment analysis. This analysis is performed by the notebook [sentiment-pattern.ipynb](sentiment-pattern.ipynb) which uses the Python package PATTERN for sentiment analysis of Dutch text (De Smedt &amp; Daelemans, 2011). The notebook requires two types of input files: the csv files in the text directories of each of the data sources and sentiment score files which should be generated from these csv files wth the script [../../scripts/sentiment-pattern-text.py](https://github.com/puregome/scripts/blob/master/sentiment-pattern-text.py) The polarity analysis of the different topics takes a lot of time and can be run in parallel. It produces time series graphs for all tweets, all pandemic tweets and several individual pandemic topics.
+Polarity analysis is the same as sentiment analysis. This analysis is performed by the notebook [sentiment-pattern.ipynb](sentiment-pattern.ipynb) which uses the Python package [https://github.com/clips/pattern](Pattern) for sentiment analysis of Dutch text (De Smedt &amp; Daelemans, 2011). The notebook requires two types of input files: the csv files in the text directories of each of the data sources and sentiment score files which should be generated from these csv files wth the script [../../scripts/sentiment-pattern-text.py](https://github.com/puregome/scripts/blob/master/sentiment-pattern-text.py) The polarity analysis of the different topics takes a lot of time and can be run in parallel. It produces time series graphs for all tweets, all pandemic tweets and several individual pandemic topics.
 
 ![polarity for face masks, social distancing and lockdown over time](sentiment-all.png)
 
 ### Stance analysis
 
-Stance analysis is performed by the notebook [fasttext.ipynb](fasttext.ipynb).
+Stance analysis is performed by the notebook [fasttext.ipynb](fasttext.ipynb). The analysis is performed by a model trained by [https://github.com/facebookresearch/fastText](fastText) in manually labeled tweets. The notebook contains a section for searching for the best parameters of fastText using grid search but when the training data is unchanged this section can be skipped. The notebook has two main modes related to topics: analysis related to the social distancing policy and analysis related to the former i(April 2020) facemask policy. These are currently the only two topics for which we have manually labeled training data. The graphs combine analysis for all three data sources used in the project: Twitter, Nu.nl and Reddit.
 
-...
+![stance for social distancing](social-distancing-all.png)
 
 
 ## Publications, talks and media coverage
