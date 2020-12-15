@@ -63,11 +63,21 @@ Polarity analysis is the same as sentiment analysis. This analysis is performed 
 
 ![polarity for face masks, social distancing and lockdown over time](sentiment-all.png)
 
+
 ### Stance analysis
 
-Stance analysis is performed by the notebook [fasttext.ipynb](fasttext.ipynb). The analysis is performed by a model trained by [https://github.com/facebookresearch/fastText](fastText) in manually labeled tweets. The notebook contains a section for searching for the best parameters of fastText using grid search but when the training data is unchanged this section can be skipped. The notebook has two main modes related to topics: analysis related to the social distancing policy and analysis related to the former i(April 2020) facemask policy. These are currently the only two topics for which we have manually labeled training data. The graphs combine analysis for all three data sources used in the project: Twitter, Nu.nl and Reddit.
+Stance analysis is performed by the notebook [fasttext.ipynb](fasttext.ipynb). The analysis originates from a model trained by [https://github.com/facebookresearch/fastText](fastText) on manually labeled tweets. The notebook contains a section for searching for the best parameters of fastText using grid search but when the training data is unchanged this section can be skipped. The notebook has two main modes related to topics: analysis related to the social distancing policy and analysis related to the former (April 2020) facemask policy. These are the only two topics for which we have manually labeled training data. The graphs combine analysis for all three data sources used in the project: Twitter, Nu.nl and Reddit.
 
 ![stance for social distancing](social-distancing-all.png)
+
+
+### Other analyses
+
+The notebook [topic-analysis.ipynb](topic-analysis.ipynb) is used to find new topics in a day of tweets. It compares the vocabulary of a day of tweets with the vocabulary of the preceding day.
+
+[echo-chambers.ipynb](echo-chambers.ipynb) is used for finding groups of users which collectively retweet similar content. The notebook found a group of a few hundred users retweeting right-wing propaganda. Further study needs to be done to check if this content has any effect on the findings of this project.
+
+[geo-analysis.ipynb](geo-analysis.ipynb) and [geo-classification.ipynb](geo-classification.ipynb) can be used to divide the tweets in groups depending on on the location of the tweeter. This only works for about half of the data set. Next, maps representing tweet data can be created with the notebook [maps.ipynb](maps.ipynb)
 
 
 ## Publications, talks and media coverage
