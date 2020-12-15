@@ -77,7 +77,9 @@ The notebook [topic-analysis.ipynb](topic-analysis.ipynb) is used to find new to
 
 [echo-chambers.ipynb](echo-chambers.ipynb) is used for finding groups of users which collectively retweet similar content. The notebook found a group of a few hundred users retweeting right-wing propaganda. Further study needs to be done to check if this content has any effect on the findings of this project.
 
-[geo-analysis.ipynb](geo-analysis.ipynb) and [geo-classification.ipynb](geo-classification.ipynb) can be used to divide the tweets in groups depending on on the location of the tweeter. This only works for about half of the data set. Next, maps representing tweet data can be created with the notebook [maps.ipynb](maps.ipynb)
+[geo-analysis.ipynb](geo-analysis.ipynb) and [geo-classification.ipynb](geo-classification.ipynb) can be used to divide the tweets in groups depending on on the location of the tweeter. This only works for about half of the data set. Next, maps representing tweet data can be created with the notebook [maps.ipynb](maps.ipynb).
+
+[corona-nl-totals.ipynb](corona-nl-totals.ipynb) creates graphs of the number infections, hospitalizations and deaths in The Netherlands based on data provided by the the health organization [https://www.rivm.nl](RIVM).
 
 
 ## Publications, talks and media coverage
