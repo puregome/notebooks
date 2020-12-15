@@ -59,14 +59,14 @@ Frequency analysis of the Nu.nl and Reddit data is included in the respective da
 
 ### Polarity analysis
 
-Polarity analysis is the same as sentiment analysis. This analysis is performed by the notebook [sentiment-pattern.ipynb](sentiment-pattern.ipynb) which uses the Python package [https://github.com/clips/pattern](Pattern) for sentiment analysis of Dutch text (De Smedt &amp; Daelemans, 2011). The notebook requires two types of input files: the csv files in the text directories of each of the data sources and sentiment score files which should be generated from these csv files wth the script [../../scripts/sentiment-pattern-text.py](https://github.com/puregome/scripts/blob/master/sentiment-pattern-text.py) The polarity analysis of the different topics takes a lot of time and can be run in parallel. It produces time series graphs for all tweets, all pandemic tweets and several individual pandemic topics.
+Polarity analysis is the same as sentiment analysis. This analysis is performed by the notebook [sentiment-pattern.ipynb](sentiment-pattern.ipynb) which uses the Python package [Pattern](https://github.com/clips/pattern) for sentiment analysis of Dutch text (De Smedt &amp; Daelemans, 2011). The notebook requires two types of input files: the csv files in the text directories of each of the data sources and sentiment score files which should be generated from these csv files wth the script [../../scripts/sentiment-pattern-text.py](https://github.com/puregome/scripts/blob/master/sentiment-pattern-text.py) The polarity analysis of the different topics takes a lot of time and can be run in parallel. It produces time series graphs for all tweets, all pandemic tweets and several individual pandemic topics.
 
 ![polarity for face masks, social distancing and lockdown over time](sentiment-all.png)
 
 
 ### Stance analysis
 
-Stance analysis is performed by the notebook [fasttext.ipynb](fasttext.ipynb). The analysis originates from a model trained by [https://github.com/facebookresearch/fastText](fastText) on manually labeled tweets. The notebook contains a section for searching for the best parameters of fastText using grid search but when the training data is unchanged this section can be skipped. The notebook has two main modes related to topics: analysis related to the social distancing policy and analysis related to the former (April 2020) facemask policy. These are the only two topics for which we have manually labeled training data. The graphs combine analysis for all three data sources used in the project: Twitter, Nu.nl and Reddit.
+Stance analysis is performed by the notebook [fasttext.ipynb](fasttext.ipynb). The analysis originates from a model trained by [fastText](https://github.com/facebookresearch/fastText) on manually labeled tweets. The notebook contains a section for searching for the best parameters of fastText using grid search but when the training data is unchanged this section can be skipped. The notebook has two main modes related to topics: analysis related to the social distancing policy and analysis related to the former (April 2020) facemask policy. These are the only two topics for which we have manually labeled training data. The graphs combine analysis for all three data sources used in the project: Twitter, Nu.nl and Reddit.
 
 ![stance for social distancing](social-distancing-all.png)
 
@@ -79,7 +79,7 @@ The notebook [topic-analysis.ipynb](topic-analysis.ipynb) is used to find new to
 
 [geo-analysis.ipynb](geo-analysis.ipynb) and [geo-classification.ipynb](geo-classification.ipynb) can be used to divide the tweets in groups depending on on the location of the tweeter. This only works for about half of the data set. Next, maps representing tweet data can be created with the notebook [maps.ipynb](maps.ipynb).
 
-[corona-nl-totals.ipynb](corona-nl-totals.ipynb) creates graphs of the number infections, hospitalizations and deaths in The Netherlands based on data provided by the the health organization [https://www.rivm.nl](RIVM).
+[corona-nl-totals.ipynb](corona-nl-totals.ipynb) creates graphs of the number infections, hospitalizations and deaths in The Netherlands based on data provided by the the health organization [RIVM](https://www.rivm.nl).
 
 
 ## Publications, talks and media coverage
