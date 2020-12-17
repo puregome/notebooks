@@ -1,0 +1,22 @@
+{
+    "creators": [
+        {
+            "affiliation": "Netherlands eScience Center",
+            "name": "Tjong Kim Sang, Erik",
+            "orcid": "0000-0002-8431-081X"
+        },
+        {
+            "affiliation": "Utrecht University",
+            "name": "Schraagen, Marijn"
+        },
+        {
+            "affiliation": "Utrecht University",
+            "name": "Wang, Shihan"
+        }
+    ],
+    "description": "First release of the software developed in the project PuReGoMe by Utrecht University and the Netherlands eScience Center",
+    "license": {
+        "id": "Apache-2.0"
+    },
+    "title": "PuReGoMe"
+}
