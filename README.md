@@ -1,4 +1,5 @@
 [![DOI](https://zenodo.org/badge/256566641.svg)](https://zenodo.org/badge/latestdoi/256566641)
+[![Research Software Directory](https://img.shields.io/badge/rsd-Research%20Software%20Directory-00a3e3.svg)](https://www.research-software.nl/software/research-software-directory)
 [![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8B%20%20%E2%97%8B%20%20%E2%97%8B-orange)](https://fair-software.eu)
 
 
@@ -9,7 +10,7 @@
 
 ## Data
 
-PuReGome uses three data sources for social media analysis. Our main data source are Dutch tweets from [Twitter](https://twitter.com/). We use Dutch posts from [Reddit](https://www.reddit.com/) and comments from [Nu.nl](https://www.nu.nl) as sources of verfication of the results obtained by the tweet analysis.
+PuReGoMe uses three data sources for social media analysis. Our main data source are Dutch tweets from [Twitter](https://twitter.com/). We use Dutch posts from [Reddit](https://www.reddit.com/) and comments from [Nu.nl](https://www.nu.nl) as sources of verfication of the results obtained by the tweet analysis.
 
 After a month has ended, the data from the month are collected. Here are the steps taken for each data source:
 
@@ -46,7 +47,7 @@ After a month has ended, the data from the month are collected. Here are the ste
 
 ## Analysis
 
-PuReGome performs analysis on three different levels: by counting messages, by determining their polarity (sentiment) and by determining their stance with respect to anti-pandemic government measures.
+PuReGoMe performs analysis on three different levels: by counting messages, by determining their polarity (sentiment) and by determining their stance with respect to anti-pandemic government measures.
 
 
 ### Frequency analysis
