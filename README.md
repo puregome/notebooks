@@ -5,19 +5,19 @@
 
 # PuReGoMe
 
-[PuReGoMe](https://research-software.nl/projects/4728) is a research project of [Utrecht University](https://www.uu.nl/en/research/intelligent-software-systems/intelligent-systems) and the [Netherlands eScience Center](https://www.esciencecenter.nl/). We analyze Dutch social media messages to assess the opinion of the public towards the COVID-19 pandemic mesasures taken by the Dutch government.
+[PuReGoMe](https://research-software.nl/projects/4728) is a research project of [Utrecht University](https://www.uu.nl/en/research/intelligent-software-systems/intelligent-systems) and the [Netherlands eScience Center](https://www.esciencecenter.nl/). We analyze Dutch social media messages to assess the opinion of the public towards the COVID-19 pandemic measures taken by the Dutch government.
 
 
 ## Data
 
-PuReGoMe uses three data sources for social media analysis. Our main data source are Dutch tweets from [Twitter](https://twitter.com/). We use Dutch posts from [Reddit](https://www.reddit.com/) and comments from [Nu.nl](https://www.nu.nl) as sources of verfication of the results obtained by the tweet analysis.
+PuReGoMe uses three data sources for social media analysis. Our main data source are Dutch tweets from [Twitter](https://twitter.com/). We use Dutch posts from [Reddit](https://www.reddit.com/) and comments from [Nu.nl](https://www.nu.nl) as sources of verification of the results obtained by the tweet analysis.
 
 After a month has ended, the data from the month are collected. Here are the steps taken for each data source:
 
 
 ### Twitter
 
-1. the tweets are taken from the crawler of [twiqs.nl](http://twiqs.nl). They are stored in json format in hourly files. (this data set is not publically available)
+1. the tweets are taken from the crawler of [twiqs.nl](http://twiqs.nl). They are stored in json format in hourly files. (this data set is not publicly available)
 2. the tweets are extracted from the json files and and stored in csv files (six columns: id\_str, in\_reply\_to\_status\_id\_str, user, verified, text, location). The conversion is performed by the script [query-text.py](https://github.com/puregome/queries/blob/master/query-text.py)
 3. duplicate tweets are removed from from the csv files produced in step 2 by the script [text-unique.py](https://github.com/puregome/scripts/blob/master/text-unique.py)
 
@@ -52,7 +52,7 @@ PuReGoMe performs analysis on three different levels: by counting messages, by d
 
 ### Frequency analysis
 
-Frequency analysis of tweets is performed in the notebook [tweet-counts.ipynb](tweet-counts.ipynb). The notebook definies seven pandemic queries: corona, covid, RIVM, face masks, lockdown, social distancing and topic, where topic is a combination of terms relevant in the first months of the pandemic. The notebook produces a graph with the absolute daily frequencies of the tweets matching each of these pandemic queries:
+Frequency analysis of tweets is performed in the notebook [tweet-counts.ipynb](tweet-counts.ipynb). The notebook defines several pandemic queries, for example face mask, lockdown, social distancing and pandemic, where pandemic is a combination of 60+ relevant terms. The notebook produces a graph with the absolute daily frequencies of the tweets matching each of these pandemic queries:
 
 ![tweet frequencies](tweet-frequencies.png)
 
@@ -61,14 +61,14 @@ Frequency analysis of the Nu.nl and Reddit data is included in the respective da
 
 ### Polarity analysis
 
-Polarity analysis is the same as sentiment analysis. This analysis is performed by the notebook [sentiment-pattern.ipynb](sentiment-pattern.ipynb) which uses the Python package [Pattern](https://github.com/clips/pattern) for sentiment analysis of Dutch text (De Smedt &amp; Daelemans, 2011). The notebook requires two types of input files: the csv files in the text directories of each of the data sources and sentiment score files which should be generated from these csv files wth the script [../../scripts/sentiment-pattern-text.py](https://github.com/puregome/scripts/blob/master/sentiment-pattern-text.py) The polarity analysis of the different topics takes a lot of time and can be run in parallel. It produces time series graphs for all tweets, all pandemic tweets and several individual pandemic topics.
+Polarity analysis is the same as sentiment analysis. This analysis is performed by the notebook [sentiment-pattern.ipynb](sentiment-pattern.ipynb) which uses the Python package [Pattern](https://github.com/clips/pattern) for sentiment analysis of Dutch text (De Smedt &amp; Daelemans, 2011). The notebook requires two types of input files: the csv files in the text directories of each of the data sources and sentiment score files which should be generated from these csv files with the script [../../scripts/sentiment-pattern-text.py](https://github.com/puregome/scripts/blob/master/sentiment-pattern-text.py) The polarity analysis of the different topics takes a lot of time and can be run in parallel. It produces time series graphs for all tweets, all pandemic tweets and several individual pandemic topics.
 
 ![polarity for face masks, social distancing and lockdown over time](sentiment-all.png)
 
 
 ### Stance analysis
 
-Stance analysis is performed by the notebook [fasttext.ipynb](fasttext.ipynb). The analysis originates from a model trained by [fastText](https://github.com/facebookresearch/fastText) on manually labeled tweets. The notebook contains a section for searching for the best parameters of fastText using grid search but when the training data is unchanged this section can be skipped. The notebook has two main modes related to topics: analysis related to the social distancing policy and analysis related to the former (April 2020) facemask policy. These are the only two topics for which we have manually labeled training data. The graphs combine analysis for all three data sources used in the project: Twitter, Nu.nl and Reddit.
+Stance analysis is performed by the notebook [fasttext.ipynb](fasttext.ipynb). The analysis originates from a model trained by [fastText](https://github.com/facebookresearch/fastText) on manually labeled tweets. The notebook contains a section for searching for the best parameters of fastText using grid search but when the training data is unchanged this section can be skipped. The notebook has two main modes related to topics: analysis related to the social distancing policy and analysis related to the former (April 2020) face mask policy. These are the only two topics for which we have manually labeled training data. The graphs combine analysis for all three data sources used in the project: Twitter, Nu.nl and Reddit.
 
 ![stance for social distancing](social-distancing-all.png)
 
@@ -88,7 +88,7 @@ The notebook [topic-analysis.ipynb](topic-analysis.ipynb) is used to find new to
 
 Erik Tjong Kim Sang [**PuReGoMe: Social Media Analysis of the Pandemic**](https://ifarm.nl/erikt/talks/20210211-escience.pdf). Lunch talk, Netherlands eScience Center, Amsterdam, The Netherlands, 11 February 2021.
 
-Shihan Wang, Marijn Schraagen, Erik Tjong Kim Sang and Mehdi Dastani, [**Dutch General Public Reaction on Governmental COVID-19 Measures and Announcements in Twitter Data**](https://arxiv.org/abs/2006.07283). Preprint report on arXiv.org, 21 Decemberr 2020.
+Shihan Wang, Marijn Schraagen, Erik Tjong Kim Sang and Mehdi Dastani, [**Dutch General Public Reaction on Governmental COVID-19 Measures and Announcements in Twitter Data**](https://arxiv.org/abs/2006.07283). Preprint report on arXiv.org, 21 December 2020.
 
 Shihan Wang, Marijn Schraagen, Erik Tjong Kim Sang and Mehdi Dastani, [**Public Sentiment on Governmental COVID-19 Measures in Dutch Social Media**](https://openreview.net/forum?id=37zyB5yuPXi). In: Workshop on NLP for COVID-19 (Part 2) at EMNLP 2020
 (NLP-COVID19-EMNLP), 20 November 2020.
