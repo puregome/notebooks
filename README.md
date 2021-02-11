@@ -34,8 +34,8 @@ After a month has ended, the data from the month are collected. Here are the ste
 
 ### Nu.nl
 
-1. Run code blocks 1, 3 and 4 of the notebook [selenium-test.ipynb](selenium-test.ipynb), after updating the name of the file in URLFILE in code block 4
-2. Restart the notebook and run code blocks 1 and 6, after updating the name of the file in URLFILE in code block 6 to the same value as under code block 4, and changing the name of the new downloads directory. This takes many hours to complete
+1. Run code blocks 1, 3 and 4 of the notebook [selenium-test.ipynb](selenium-test.ipynb), after updating the name of the file in URLFILE in code block 1
+2. Restart the notebook and run code blocks 1 and 6, after changing the name of the new downloads directory in code block 6. This process takes many hours (even days) to complete
 3. The notebook can be copied and several copies can be run in parallel
 4. When the notebooks have finished: delete all files of sizes 1 and 3 in this month's directory and rerun the notebooks
 5. Repeat step 4 until no articles with comments are found
@@ -86,10 +86,12 @@ The notebook [topic-analysis.ipynb](topic-analysis.ipynb) is used to find new to
 
 ## Publications, talks and media coverage
 
+Erik Tjong Kim Sang [**PuReGoMe: Social Media Analysis of the Pandemic**](https://ifarm.nl/erikt/talks/20210211-escience.pdf). Lunch talk, Netherlands eScience Center, Amsterdam, The Netherlands, 11 February 2021.
+
+Shihan Wang, Marijn Schraagen, Erik Tjong Kim Sang and Mehdi Dastani, [**Dutch General Public Reaction on Governmental COVID-19 Measures and Announcements in Twitter Data**](https://arxiv.org/abs/2006.07283). Preprint report on arXiv.org, 21 Decemberr 2020.
+
 Shihan Wang, Marijn Schraagen, Erik Tjong Kim Sang and Mehdi Dastani, [**Public Sentiment on Governmental COVID-19 Measures in Dutch Social Media**](https://openreview.net/forum?id=37zyB5yuPXi). In: Workshop on NLP for COVID-19 (Part 2) at EMNLP 2020
 (NLP-COVID19-EMNLP), 20 November 2020.
-
-Shihan Wang, Marijn Schraagen, Erik Tjong Kim Sang and Mehdi Dastani, [**Dutch General Public Reaction on Governmental COVID-19 Measures and Announcements in Twitter Data**](https://arxiv.org/abs/2006.07283). Preprint report on arXiv.org, 29 September 2020.
 
 Erik Tjong Kim Sang [**PuReGoMe: Dutch Public Reaction on Governmental COVID-19 Measures and Announcements**](https://ifarm.nl/erikt/talks/20200626-escience.pdf). Lunch talk, Netherlands eScience Center, Amsterdam, The Netherlands, 26 June 2020.
 
