@@ -86,6 +86,8 @@ The notebook [topic-analysis.ipynb](topic-analysis.ipynb) is used to find new to
 
 ## Publications, talks and media coverage
 
+Erik Tjong Kim Sang, Marijn Schraagen, Mehdi Dastani and Shihan Wang, [**Discovering Pandemic Topics on Twitter**](https://ifarm.nl/erikt/papers/dhbenelux-20210223.pdf). Submitted to DHBenelux 2021.
+
 Erik Tjong Kim Sang [**PuReGoMe: Social Media Analysis of the Pandemic**](https://ifarm.nl/erikt/talks/20210211-escience.pdf). Lunch talk, Netherlands eScience Center, Amsterdam, The Netherlands, 11 February 2021.
 
 Shihan Wang, Marijn Schraagen, Erik Tjong Kim Sang and Mehdi Dastani, [**Dutch General Public Reaction on Governmental COVID-19 Measures and Announcements in Twitter Data**](https://arxiv.org/abs/2006.07283). Preprint report on arXiv.org, 21 December 2020.
