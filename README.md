@@ -86,7 +86,7 @@ The notebook [topic-analysis.ipynb](topic-analysis.ipynb) is used to find new to
 
 ## Publications, talks and media coverage
 
-Erik Tjong Kim Sang, Marijn Schraagen, Shihan Wang and  Mehdi Dastani, [**Erik Tjong Kim Sang, Marijn Schraagen, Mehdi Dastani and Shihan Wang**](https://ifarm.nl/erikt/papers/clin-20210419.pdf). Submitted to CLIN 2021.
+Erik Tjong Kim Sang, Marijn Schraagen, Shihan Wang and  Mehdi Dastani, [**Transfer Learning for Stance Analysis in COVID-19 Tweets**](https://ifarm.nl/erikt/papers/clin-20210419.pdf). Submitted to CLIN 2021.
 
 Erik Tjong Kim Sang, Marijn Schraagen, Mehdi Dastani and Shihan Wang, [**Discovering Pandemic Topics on Twitter**](https://ifarm.nl/erikt/papers/dhbenelux-20210223.pdf). Accepted for DHBenelux 2021.
 
