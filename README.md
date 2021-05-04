@@ -32,7 +32,7 @@ After a month has ended, the data from the month are collected. Here are the ste
 1. Run code blocks 1, 3 and 4 of the notebook selenium-test.ipynb, after updating the name of the file in URLFILE in code block 1
 2. Restart the notebook and run code blocks 1 and 6, after changing the name of the new downloads directory in DATADIROUT in code block 6. This process takes many hours (even days) to complete
 3. The notebook can be copied and several copies can be run in parallel
-4. When the notebooks have finished: delete all files of sizes 1 and 3 in this month's directory and rerun the notebooks
+4. When the notebooks have finished: delete all pairs of files of sizes 1 and 3 in this month's directory (keep the ones with only size 1) and rerun the notebooks
 5. Repeat step 4 until no articles with comments are found
 6. go to (cd) the directory data/nunl
 7. run the script [../../scripts/combineNunlComments.sh](https://github.com/puregome/scripts/blob/master/combineNunlComments.sh) to update the files in the main directory `downloads`
