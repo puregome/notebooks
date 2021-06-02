@@ -83,7 +83,7 @@ The notebook [topic-analysis.ipynb](topic-analysis.ipynb) is used to find new to
 
 Erik Tjong Kim Sang, Marijn Schraagen, Shihan Wang and  Mehdi Dastani, [**Transfer Learning for Stance Analysis in COVID-19 Tweets**](https://ifarm.nl/erikt/papers/clin-20210419.pdf). Accepted for CLIN 2021.
 
-Erik Tjong Kim Sang, Marijn Schraagen, Mehdi Dastani and Shihan Wang, [**Discovering Pandemic Topics on Twitter**](https://ifarm.nl/erikt/papers/dhbenelux-20210223.pdf). Accepted for DHBenelux 2021.
+Erik Tjong Kim Sang, Marijn Schraagen, Mehdi Dastani and Shihan Wang, [**Discovering Pandemic Topics on Twitter**](https://ifarm.nl/erikt/papers/dhbenelux-20210509.pdf). DHBenelux 2021.
 
 Erik Tjong Kim Sang [**PuReGoMe: Social Media Analysis of the Pandemic**](https://ifarm.nl/erikt/talks/20210211-escience.pdf). Lunch talk, Netherlands eScience Center, Amsterdam, The Netherlands, 11 February 2021.
 
