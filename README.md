@@ -1,11 +1,11 @@
 # PuReGoMe
 
-[PuReGoMe](https://research-software.nl/projects/4728) is a research project of [Utrecht University](https://www.uu.nl/en/research/intelligent-software-systems/intelligent-systems) and the [Netherlands eScience Center](https://www.esciencecenter.nl/). We analyze Dutch social media messages to assess the opinion of the public towards the COVID-19 pandemic measures taken by the Dutch government.
+[PuReGoMe](https://research-software-directory.org/projects/puregome) is a research project of [Utrecht University](https://www.uu.nl/en/research/intelligent-software-systems/intelligent-systems) and the [Netherlands eScience Center](https://www.esciencecenter.nl/). We analyze Dutch social media messages to assess the opinion of the public towards the COVID-19 pandemic measures taken by the Dutch government.
 
 
 ## Data
 
-PuReGoMe uses three data sources for social media analysis. Our main data source are Dutch tweets from [Twitter](https://twitter.com/). We use Dutch posts from [Reddit](https://www.reddit.com/) and comments from [Nu.nl](https://www.nu.nl) as sources of verification of the results obtained by the tweet analysis.
+PuReGoMe uses three data sources for social media analysis. Our main data source are Dutch tweets from [Twitter](https://twitter.com/). We share the [ids of most of the tweets used in the project](https://github.com/puregome/ids). We use Dutch posts from [Reddit](https://www.reddit.com/) and comments from [Nu.nl](https://www.nu.nl) as sources of verification of the results obtained by the tweet analysis.
 
 After a month has ended, the data from the month are collected. Here are the steps taken for each data source:
 
